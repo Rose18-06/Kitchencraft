@@ -15,8 +15,9 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import SlideContent2 from './SlideContent2.vue';
-import SummarySection from './SummarySection.vue';
+import SlideContent2 from './components/SlideContent2.vue';
+import SummarySection from './components/SummarySection.vue';
+
 
 export default defineComponent({
   components: { SlideContent2, SummarySection },
